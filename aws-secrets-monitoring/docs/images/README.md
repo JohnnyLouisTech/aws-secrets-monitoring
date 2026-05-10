@@ -70,12 +70,4 @@ Drop your Medium article screenshots here using the filenames below. The main `R
 | `62-alarm-refreshed.png`                  | Refreshed alarm in CloudWatch                          |
 | `63-final-alarm-email.png`                | Final `ALARM: "SecretIsAccessedAlarm"` email           |
 
-## How to grab them from your Medium article
 
-The quickest way:
-
-1. Open the article in your browser.
-2. Right-click each image → **Save image as...** → save into this folder using the filename above.
-3. `git add docs/images/ && git commit -m "Add screenshots" && git push`
-
-Alternatively, if you still have your original screenshot folder from when you wrote the article, just batch-rename them to match.
